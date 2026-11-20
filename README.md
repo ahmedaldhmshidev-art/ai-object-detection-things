@@ -5,6 +5,7 @@
 A simple object detection project built with Python and OpenCV using the pre-trained SSD MobileNet V3 model and COCO dataset.
 
 ## نظرة عامة | Overview
+
 يهدف المشروع إلى اكتشاف الكائنات الموجودة داخل الصور والتعرف عليها، مع تحديد مواقعها باستخدام إطارات تحيط بالكائنات المكتشفة (Bounding Boxes)، وإظهار أسماء الكائنات.
 
 The project detects and identifies objects in images, displaying their names and locations using bounding boxes.
@@ -18,7 +19,7 @@ The project detects and identifies objects in images, displaying their names and
 
 ## هيكلية المشروع | Project Structure
 
-text
+```text
 Object-Detection/
 ├── cod/
 │   ├── cod.py
@@ -33,6 +34,7 @@ Object-Detection/
 ├── presentation/
 │   └── Project_Presentation.pptx
 └── README.md
+```
 
 ## صور المشروع | Screenshots
 
@@ -49,6 +51,7 @@ Object-Detection/
 ![Detection Result](img/img%20detection%20things.png)
 
 ## طريقة العمل | How It Works
+
 1. تحميل الصورة باستخدام OpenCV.
 2. تحميل نموذج SSD MobileNet V3.
 3. معالجة الصورة وتجهيزها للكشف.
@@ -58,19 +61,27 @@ Object-Detection/
 ## التثبيت والتشغيل | Installation & Run
 
 تثبيت مكتبة OpenCV:
-bash
+
+```bash
 pip install opencv-python
+```
 
 تشغيل المشروع:
-bash
+
+```bash
 python cod/cod.py
+```
+
 تأكد من وجود ملفات النموذج والصورة في المسارات الصحيحة قبل التشغيل.
 
 ## العرض التقديمي | Project Presentation
+
 يمكن الاطلاع على تفاصيل المشروع وطريقة عمله من خلال العرض التقديمي:
+
 [View Project Presentation](presentation/Project_Presentation.pptx)
 
 ## المطور | Developer
+
 **Ahmed Ali Aldhmshi**
 
 Computer Science Graduate | Junior Developer
